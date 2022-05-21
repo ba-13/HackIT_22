@@ -26,7 +26,7 @@ for i in range(NUM_MENTEES):
     scrs = ''.join(scores)
     score = np.sum(tmp)
     print("\"score\" : ", score, ",")
-    print("\"roll\" : ", randint(190000, 219999), ",")
+    print("\"roll\" : \"" + str(randint(190000, 219999)) + "\",")
     print("\"scores\" : \"" + scrs + "\"\n},")
 print("]")
 

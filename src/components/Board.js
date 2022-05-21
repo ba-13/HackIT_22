@@ -1,37 +1,64 @@
-import React, { useState } from "react";
+import React from "react";
 import Profiles from "./profiles";
 import Problem from "./problem";
 import { ProfilesData } from "../data/data_profiles";
 import { Problems } from "../data/data_problems";
+import SearchBox from "./search_box/SearchBox";
 
 let len = Problems.length;
 
-export default function Board() {
-  const [stateType, setType] = useState(-1);
-  const handleClick = (e) => {
-    setType(e.target.dataset.id);
+export default class Board extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      stateType: -1,
+      searchField: "",
+    };
+  }
+  handleClick = (e) => {
+    this.setState({ stateType: e.target.dataset.id });
   };
   // console.log(stateType);
-  return (
-    <div className="board">
-      <h1 className="leaderboard">Leaderboard</h1>
-      <div className="duration">
-        <button onClick={handleClick} data-id="0">
-          Current Assignment
-        </button>
-        <button onClick={handleClick} data-id="1">
-          Previous Assignment
-        </button>
-        <button onClick={handleClick} data-id="-1">
-          All time
-        </button>
+  render() {
+    const filteredProfilesData = ProfilesData.filter((p) => {
+      return (
+        p.name.toLowerCase().includes(this.state.searchField.toLowerCase()) ||
+        p.roll.includes(this.state.searchField)
+      );
+    });
+    console.log(filteredProfilesData.length);
+    return (
+      <div className="board">
+        <h1 className="title">HackIT</h1>
+        <h1 className="leaderboard">Leaderboard</h1>
+        <div className="duration">
+          <button onClick={this.handleClick} data-id="0">
+            Current Assignment
+          </button>
+          <button onClick={this.handleClick} data-id="1">
+            Previous Assignment
+          </button>
+          <button onClick={this.handleClick} data-id="-1">
+            All time
+          </button>
+        </div>
+        <div>
+          <Problem
+            ps={problem_statement(Problems, this.state.stateType)}
+          ></Problem>
+        </div>
+        <div>
+          <SearchBox
+            onChange={(e) => this.setState({ searchField: e.target.value })}
+            placeholder="Search"
+          ></SearchBox>
+        </div>
+        <Profiles
+          Leaderboard={filter_data(filteredProfilesData, this.state.stateType)}
+        ></Profiles>
       </div>
-      <div>
-        <Problem ps={problem_statement(Problems, stateType)}></Problem>
-      </div>
-      <Profiles Leaderboard={filter_data(ProfilesData, stateType)}></Profiles>
-    </div>
-  );
+    );
+  }
 }
 
 function problem_statement(data, type_) {
