@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Board from "./components/Board";
+import "./components/style.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// function Early() {
+//   return (
+//     <div className="App" id="main">
+//       <Board></Board>
+//     </div>
+//   );
+// }
+
+// let url_profiles = "";
+// let url_problems = "";
+class App extends React.Component {
+  // async componentDidMount() {
+  //   const res_problems = await (await fetch(url_problems)).json();
+  //   const res_profiles = await (await fetch(url_profiles)).json();
+  //   this.setState({ problems: res_problems, profiles: res_profiles });
+  // }
+  render() {
+    return (
+      <div className="App" id="main">
+        <Board></Board>
+      </div>
+    );
+  }
 }
-
 export default App;
