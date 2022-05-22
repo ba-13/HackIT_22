@@ -1,7 +1,7 @@
 # Leaderboard for HackIt 2022
 
 This is a REACT based codebase that implements a leaderboard for the SnT project HackIt, PClub, IITK.  
-Access it [here](https://ba-13.github.io/HackIT_Leaderboard).  
+Access it [here](https://ba-13.github.io/HackIT_22).  
 Once you receive data of the form of:
 
 1. [data_profiles.js](./src/data/data_profiles.js)
@@ -54,7 +54,7 @@ You're done!
 Hosting requires editing `package.json` by adding
 
 ```js
-homepage : "https://ba-13.github.io/HackIT_Leaderboard",
+homepage : "https://ba-13.github.io/HackIT_22",
 ```
 
 Now install

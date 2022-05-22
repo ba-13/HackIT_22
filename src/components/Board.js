@@ -6,7 +6,7 @@ import { Problems } from "../data/data_problems";
 import SearchBox from "./SearchBox";
 
 let len = Problems.length;
-let initial_state = "-1";
+let initial_state = "0";
 
 export default class Board extends React.Component {
   constructor() {
@@ -21,10 +21,19 @@ export default class Board extends React.Component {
   };
   // console.log(stateType);
   render() {
+    ProfilesData.sort((a, b) => {
+      if (a.score !== "NA" && b.score !== "NA") return b.score - a.score;
+      else return -1;
+    });
+    ProfilesData.map((val, idx) => {
+      val.pos = String(idx + 1);
+      return val;
+    });
     const filteredProfilesData = ProfilesData.filter((p) => {
       return (
         p.name.toLowerCase().includes(this.state.searchField.toLowerCase()) ||
-        p.roll.includes(this.state.searchField)
+        p.roll.includes(this.state.searchField) ||
+        p.pos.includes(this.state.searchField)
       );
     });
     // console.log(filteredProfilesData.length);
