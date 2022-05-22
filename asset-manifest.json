@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/HackIT_22/static/css/main.c16e7505.css",
-    "main.js": "/HackIT_22/static/js/main.ce8b2704.js",
+    "main.js": "/HackIT_22/static/js/main.4a54e4c1.js",
     "static/js/787.77081e05.chunk.js": "/HackIT_22/static/js/787.77081e05.chunk.js",
     "index.html": "/HackIT_22/index.html",
     "main.c16e7505.css.map": "/HackIT_22/static/css/main.c16e7505.css.map",
-    "main.ce8b2704.js.map": "/HackIT_22/static/js/main.ce8b2704.js.map",
+    "main.4a54e4c1.js.map": "/HackIT_22/static/js/main.4a54e4c1.js.map",
     "787.77081e05.chunk.js.map": "/HackIT_22/static/js/787.77081e05.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c16e7505.css",
-    "static/js/main.ce8b2704.js"
+    "static/js/main.4a54e4c1.js"
   ]
 }
