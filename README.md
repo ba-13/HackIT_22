@@ -48,8 +48,8 @@ Actually I'll provide assignments based on writeups throughout the project. Grad
 
 ## More Logistics
 
-Download two sheets of Problems and Profiles seperately, after editing them.  
-
+Download two sheets of Problems and Profiles seperately, after editing them. Now run `./run.sh` and enter commit message in between.
+You're done!
 
 Hosting requires editing `package.json` by adding
 
