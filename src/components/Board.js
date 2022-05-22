@@ -30,7 +30,7 @@ export default class Board extends React.Component {
     // console.log(filteredProfilesData.length);
     return (
       <div className="board">
-        <h1 className="title">HackIT</h1>
+        <h1 className="title">HackIT '22</h1>
         <h1 className="leaderboard">Leaderboard</h1>
         <div className="duration">
           <button onClick={this.handleClick} data-id="0">
