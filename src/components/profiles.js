@@ -1,15 +1,22 @@
 import React from "react";
 
-export default function Profiles({ Leaderboard }) {
-  return <div id="profile">{Item(Leaderboard)}</div>;
+export default function Profiles({ Leaderboard, searchField }) {
+  return <div id="profile">{Item(Leaderboard, searchField)}</div>;
 }
 
-function Item(data) {
+function Item(data, searchField) {
   // console.log("Reloaded!");
   // console.log(data[0].score);
+  const filteredProfilesData = data.filter((p) => {
+    return (
+      p.name.toLowerCase().includes(searchField.toLowerCase()) ||
+      p.roll.includes(searchField) ||
+      p.pos.includes(searchField)
+    );
+  });
   return (
     <>
-      {data.map((val, idx) => {
+      {filteredProfilesData.map((val, idx) => {
         let c = val.scores.length;
         let scores = Array.from({ length: c }, (_, i) => 0);
         for (let ch = 0; ch < c; ch++) {

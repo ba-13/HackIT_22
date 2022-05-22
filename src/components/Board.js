@@ -30,13 +30,7 @@ export default class Board extends React.Component {
       val.pos = String(idx + 1);
       return val;
     });
-    const filteredProfilesData = ProfilesData.filter((p) => {
-      return (
-        p.name.toLowerCase().includes(this.state.searchField.toLowerCase()) ||
-        p.roll.includes(this.state.searchField) ||
-        p.pos.includes(this.state.searchField)
-      );
-    });
+
     // console.log(filteredProfilesData.length);
     return (
       <div className="board">
@@ -65,7 +59,8 @@ export default class Board extends React.Component {
           ></SearchBox>
         </div>
         <Profiles
-          Leaderboard={filter_data(filteredProfilesData, this.state.stateType)}
+          Leaderboard={filter_data(ProfilesData, this.state.stateType)}
+          searchField={this.state.searchField}
         ></Profiles>
       </div>
     );
