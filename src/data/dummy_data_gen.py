@@ -2,7 +2,7 @@ from faker import Faker
 from random import randint
 import numpy as np
 import sys
-from env import NUM_ASSIGNMENTS, NUM_MENTEES, MARKS_MAX, MARKS_MIN
+from dummy_env import NUM_ASSIGNMENTS, NUM_MENTEES, MARKS_MAX, MARKS_MIN
 
 sys.stdout = open('./data_profiles.js', 'w')
 

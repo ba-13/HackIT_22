@@ -46,6 +46,11 @@ Displays profiles in sorted list format by default, with 3 options of checking `
 How I plan to use it?
 Actually I'll provide assignments based on writeups throughout the project. Grading would be between 0 to 10. I would manually edit marks on sheets (maintaining 2 sheets, for profiles and for problems else just append the problem), export it as json, and place it as specified.
 
+## More Logistics
+
+Download two sheets of Problems and Profiles seperately, after editing them.  
+
+
 Hosting requires editing `package.json` by adding
 
 ```js
