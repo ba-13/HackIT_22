@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/HackIT_Leaderboard/static/css/main.69ef8b13.css",
-    "main.js": "/HackIT_Leaderboard/static/js/main.8a7e2a9d.js",
-    "static/js/787.77081e05.chunk.js": "/HackIT_Leaderboard/static/js/787.77081e05.chunk.js",
-    "index.html": "/HackIT_Leaderboard/index.html",
-    "main.69ef8b13.css.map": "/HackIT_Leaderboard/static/css/main.69ef8b13.css.map",
-    "main.8a7e2a9d.js.map": "/HackIT_Leaderboard/static/js/main.8a7e2a9d.js.map",
-    "787.77081e05.chunk.js.map": "/HackIT_Leaderboard/static/js/787.77081e05.chunk.js.map"
+    "main.css": "/HackIT_22/static/css/main.69ef8b13.css",
+    "main.js": "/HackIT_22/static/js/main.934611f7.js",
+    "static/js/787.77081e05.chunk.js": "/HackIT_22/static/js/787.77081e05.chunk.js",
+    "index.html": "/HackIT_22/index.html",
+    "main.69ef8b13.css.map": "/HackIT_22/static/css/main.69ef8b13.css.map",
+    "main.934611f7.js.map": "/HackIT_22/static/js/main.934611f7.js.map",
+    "787.77081e05.chunk.js.map": "/HackIT_22/static/js/787.77081e05.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69ef8b13.css",
-    "static/js/main.8a7e2a9d.js"
+    "static/js/main.934611f7.js"
   ]
 }
