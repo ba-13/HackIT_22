@@ -6,4 +6,5 @@ git status
 git add -A
 read commit_message
 git commit -m "$commit_message"
-# npm run deploy
+git push origin main
+npm run deploy
