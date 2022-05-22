@@ -22,6 +22,7 @@ export default class Board extends React.Component {
   // console.log(stateType);
   render() {
     ProfilesData.sort((a, b) => {
+      console.log("Sorted.");
       if (a.score !== "NA" && b.score !== "NA") return b.score - a.score;
       else return -1;
     });
