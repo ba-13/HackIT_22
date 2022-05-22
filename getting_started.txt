@@ -1,0 +1,5 @@
+1. Download this folder, or 'hackit_challenge.zip' file.
+2. Extract the file, and open the extracted directory using a text editor.
+3. You're good to go! Explore.
+
+Note that Hints, if need be, will be updated on this file itself, so check it out whenever hints are released.
