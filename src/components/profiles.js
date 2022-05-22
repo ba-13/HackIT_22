@@ -26,7 +26,7 @@ function Item(data, searchField) {
           <div className="flex" key={idx}>
             <div className="item">
               {/* <img src={val.img} alt="" /> */}
-              <div className="bold">{val.pos}.</div>
+              {/* <div className="bold">{val.pos}.</div> */}
               <div className="info">
                 <h3 className="name text-dark">{val.name}</h3>
                 <span>{val.roll}</span>
