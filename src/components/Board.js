@@ -21,16 +21,6 @@ export default class Board extends React.Component {
   };
   // console.log(stateType);
   render() {
-    ProfilesData.sort((a, b) => {
-      console.log("Sorted.");
-      if (a.score !== "NA" && b.score !== "NA") return b.score - a.score;
-      else return -1;
-    });
-    ProfilesData.map((val, idx) => {
-      val.pos = String(idx + 1);
-      return val;
-    });
-
     // console.log(filteredProfilesData.length);
     return (
       <div className="board">
@@ -96,8 +86,15 @@ function problem_statement(data, type_) {
 
 function filter_data(data, type_) {
   // console.log("Changing to ", type_, typeof type_);
+  data.sort((a, b) => {
+    console.log("Sorted.");
+    if (a.score !== "NA" && b.score !== "NA") return b.score - a.score;
+    else return -1;
+  });
+
   let dataNew = data.map((val, idx) => {
     let c = val.scores.length; // string to array
+    val.pos = String(idx + 1);
     let scores = Array.from({ length: c }, (_, i) => 0);
     for (let ch = 0; ch < c; ch++) {
       scores[ch] = val.scores[ch] === "a" ? 10 : parseInt(val.scores[ch]);
