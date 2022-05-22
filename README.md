@@ -1,30 +1,33 @@
 # Leaderboard for HackIt 2022
 
 This is a REACT based codebase that implements a leaderboard for the SnT project HackIt, PClub, IITK.  
+Access it [here](https://ba-13.github.io/HackIT_Leaderboard).  
 Once you receive data of the form of:
 
-```json
-// data_profiles.js
-[
-...
-    {
-    "name" : "Zaina Bali",
-    "roll" : "191510",
-    "scores" : "0746140"
-    },
-...
-]
-```
+1. [data_profiles.js](./src/data/data_profiles.js)
 
-```json
-// data_problems.json
-[
-...
-    "Reverse Engineering 3.5 Question about...",
-...
-]
-```
- 
+    ```json
+    [
+    ...
+        {
+        "name" : "Zaina Bali",
+        "roll" : "191510",
+        "scores" : "0746140"
+        },
+    ...
+    ]
+    ```
+
+2. [data_problems.json](./src/data/data_problems.js)
+
+    ```json
+    [
+        ...
+        "Reverse Engineering 3.5 Question about...",
+        ...
+    ]
+    ```
+
 This is profiles info, where scores are counted from Assignment 0 to the left, and latest Assignment to the right.  
 Once such an array of profiles is provided, the app will handle its display automatically
 
