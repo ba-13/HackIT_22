@@ -8,13 +8,13 @@ Once you receive data of the form of:
 
     ```json
     [
-    ...
+        ...
         {
         "name" : "Zaina Bali",
         "roll" : "191510",
         "scores" : "0746140"
         },
-    ...
+        ...
     ]
     ```
 
@@ -48,7 +48,7 @@ Actually I'll provide assignments based on writeups throughout the project. Grad
 
 Hosting requires editing `package.json` by adding
 
-```json
+```js
 homepage : "https://ba-13.github.io/HackIT_Leaderboard",
 ```
 
