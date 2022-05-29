@@ -59,4 +59,39 @@ It is version control manager/tracker. It will track how your file changes and s
 
 ### git commands
 
-git init --> creates a new git repository 
+git init --> creates/initialises a git repository
+
+git status --> shows the status or any update you have made to your files in your current directory and its sub directories.
+
+git branch [-m] xyz--> creates a new branch, actually a copy of current branch in which you can do any modification which will not be showed up in your master/main branch. 
+
+git checkout (main) --> to change branch (here to main)
+
+git add *  --> update all the changes you have made to your **files** in the current directory.
+
+git add -A --> update the changes in **directories** as well.
+
+git commit -m xyz --> A commit, or "revision", is an individual change to a file (or set of files). It's like when you save a file, except with Git, every time you save it creates a unique ID (a.k.a. the "SHA" or "hash") that allows you to keep record of what changes were made when and by who.
+
+git log --> to check the log of your changes and commits.
+
+rm -rf git --> to get out of git.
+
+
+#### steps to update github repository
+
+1. Fork the repo, create personal access command line token and copy the URL.
+   OR
+   **you can directly access any repository directly from VSCode.**
+
+2. Follow the following commands:
+   - git clone "URL"
+   - Start editing in any text editor
+   - after making changes, git add * and git add -A
+   - then check git status
+   - then do git commit -m "your_message".
+   - push your code using git push -u origin **"branch_name"**.
+
+3. Make a pull request on github.
+
+### Markdown File
