@@ -46,5 +46,5 @@ Following are some shortcuts for efficient use of VIM which I learned from the '
     - Type ``` / ```  followed by a phrase to search for the phrase.
 
 
-- ``` :q! ``` : Closes editor without saving while ```:q!``` Saves file and then closes the editor
+- ``` :q! ``` : Closes editor without saving while ```:wq!``` Saves file and then closes the editor
 - Pressing the 'i' key opens the INSERT mode wherein further text can be inserted.
