@@ -6,11 +6,11 @@ Unix file system is a way of organizing and storing large amounts of information
 
 | Command | Description |
 | ------- | ----------- |
-|whoami | returns user's name(in case you forget it) |
-|cd | changes to a particular directory |
-|pwd | Prints path to current directory |
-|ls | Lists elements of current directory |
-|mkdir | Makes new directory with given name|
+| whoami | returns user's name(in case you forget it **XD**) |
+| cd | changes to a particular directory |
+| pwd | Prints path to current directory |
+| ls | Lists elements of current directory |
+| mkdir | Makes new directory with given name|
 |sudo |stands for su[er user do; set of commands that give user admin power|
 |touch | Creates a new file with given name|
 |clear |Clears terminal window|
@@ -27,22 +27,8 @@ Unix file system is a way of organizing and storing large amounts of information
 *This is just a list of some basic commands, these commands also have flags that increase their usecases furthermore.*
 
 
-# ***VIM***
+# VIM
 
 VIM stands for Vi IMproved, and it is an open-source text editor that does not require any use of a mouse and is completely keyboard based.
-It has 12 different editing modes.
-
-Following are some shortcuts for efficient use of VIM which I learned from the 'vimtutor' page-
-- In Normal mode -
-    - The keys h,j,k and l move the cursor to the left, down, up and right respectively.
-    - The'x' key can be used to delete an unwanted character
-    - Typing 'dw' deletes a word present ahead of the cursor
-    - Typing 'dd' deletes the line on which the cursor is present
-    - Press 'u' to undo the last command
-    - Type  'rx'  to replace the character at the cursor with  x
-    - Type  :!  followed by an external command to execute that command( e.g. :!ls) 
-
-- ``` :q! ``` : Closes editor without saving while ```:q!``` Saves file and then closes the editor
-- Pressing the 'i' key opens the INSERT mode wherein further text can be inserted
-
-
+Following are some important modes in VIM-
+- 
