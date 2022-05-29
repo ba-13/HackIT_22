@@ -6,7 +6,7 @@ Unix file system is a way of organizing and storing large amounts of information
 
 | Command | Description |
 | ------- | ----------- |
-| whoami | returns user's name(in case you forget it **XD**) |
+| whoami | returns user's name(in case you forget it ) |
 | cd | changes to a particular directory |
 | pwd | Prints path to current directory |
 | ls | Lists elements of current directory |
