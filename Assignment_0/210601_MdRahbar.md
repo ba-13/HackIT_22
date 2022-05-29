@@ -95,3 +95,10 @@ rm -rf git --> to get out of git.
 3. Make a pull request on github.
 
 ### Markdown File
+
+**#** --> heading 1, like **h1** tag in HTML.
+likewise, # to ###### ===> h1 to h6 in HTML...
+
+- **-** --> list tag
+- **---** --> insert horizontal line.
+- **[link xyz] with ()** --> to insert any link in md file.
