@@ -23,16 +23,17 @@ As everything is a file, so to manage all the files (whether large or small) man
 ### Unix Commands
 
 1. pwd --> show current location
-2. man <name> --> show manual page of <name>
+2. man **name** --> show manual page of **name**
 3. ls --> show content of current file location: _attributes_ [-l]--> list view with file details,[-a]--> hidden files, [-h]--> show memory of files in more readable format.
-4. cat <path> --> show content of file at <path>
-5. cd <path> --> change directory/location.... here **"cd../"** can be used to go one heirarchy up (**/** ends command)
+4. cat **path** --> show content of file at **path**
+5. cd **path** --> change directory/location.... here **"cd../"** can be used to go one heirarchy up (**/** ends command)
 6. mkdir --> make/create new directory.
-7. touch <path> --> create a new empty file.
-8. echo <text> --> prints <text> as it is.... "**>**" is used to execute output of echo into some other file. "**>>**" will append instead of write from start.
+7. touch **path** --> create a new empty file.
+8. echo **text** --> prints **text** as it is.... "**>**" is used to execute output of echo into some other file. "**>>**" will append instead of write from start.
 9. rm --> delete file
 10. chmod --> change file mode bits (actually change permissions)
-11. etc.
+11. sudo --> it is super user command i.e. to run as administrator... eg: sudo apt-get install python: to install python.
+12. etc.
 
 ---
 
@@ -49,3 +50,13 @@ x=> executable                 1
 </pre>
 if file is readable + writable + executable 
 now here, xyz is **rwx** by owner, **r & x** by group and only **r** by others.
+
+---
+
+## Git
+
+It is version control manager/tracker. It will track how your file changes and stores/keeps the history of your file(s). What they were before and are now.
+
+### git commands
+
+git init --> creates a new git repository 
