@@ -34,15 +34,17 @@ It has 12 different editing modes.
 
 Following are some shortcuts for efficient use of VIM which I learned from the 'vimtutor' page-
 - In Normal mode -
+    
     - The keys h,j,k and l move the cursor to the left, down, up and right respectively.
     - The'x' key can be used to delete an unwanted character
     - Typing 'dw' deletes a word present ahead of the cursor
     - Typing 'dd' deletes the line on which the cursor is present
     - Press 'u' to undo the last command
     - Type  'rx'  to replace the character at the cursor with  x
-    - Type  :!  followed by an external command to execute that command( e.g. :!ls) 
+    - Type  ```:!```  followed by an external command to execute that command( e.g. ```:!ls```) 
+    - Type CTRL-G to show your location in the file and the file status
+    - Type ``` / ```  followed by a phrase to search for the phrase.
+
 
 - ``` :q! ``` : Closes editor without saving while ```:q!``` Saves file and then closes the editor
-- Pressing the 'i' key opens the INSERT mode wherein further text can be inserted
-
-
+- Pressing the 'i' key opens the INSERT mode wherein further text can be inserted.
