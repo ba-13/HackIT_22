@@ -67,7 +67,7 @@ function problem_statement(data, type_) {
     }
   } else if (len === 1) {
     if (type_ === "0") {
-      problem = "Assignment " + String(len - type_) + " : " + data[len - 1];
+      problem = "Assignment " + String(len - type_ - 1) + " : " + data[len - 1];
     } else if (type_ === "1") {
       problem = "Not present!";
     } else {
@@ -75,9 +75,9 @@ function problem_statement(data, type_) {
     }
   } else {
     if (type_ === "0")
-      problem = "Assignment " + String(len - type_) + " : " + data[len - 1];
+      problem = "Assignment " + String(len - type_ - 1) + " : " + data[len - 1];
     else if (type_ === "1")
-      problem = "Assignment " + String(len - type_) + " : " + data[len - 2];
+      problem = "Assignment " + String(len - type_ - 1) + " : " + data[len - 2];
     else problem = "Total Number of Assignments : " + String(len);
   }
   // console.log(problem);
