@@ -1,7 +1,7 @@
 
 # UNIX filesystem
 
-A file system is a hierarchical structure of files and directories. The directory structure of a UNIX filesystem is given below...!
+A file system is a hierarchical structure of files and directories. Some important directory of UNIX filesystem is given below...!
 
 + **/** : The slash / character alone denotes the root of the filesystem tree.
 + **/bin** : Stands for “binaries” and contains certain fundamental utilities, such as ls or cp, which are generally needed by all users.
