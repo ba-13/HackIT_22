@@ -10,7 +10,15 @@ A file system is a hierarchical structure of files and directories. Some importa
 
 *[UNIX command](https://en.wikipedia.org/wiki/List_of_Unix_commands), their syntax and usage can be easily found on the internet.* Some useful UNIX commands...
 
-![UNIX commands!](UNIX_command.png)
++ **man *command*** : prints manual of the command
++ **ls** : lists your files and directories
++ **ls -a** : lists all files, including the ones whose filenames begin in a dot
++ **cp *filename1 filename2*** : copies a file
++ **rm *filename*** : removes a file.
++ **chmod *options filename*** : lets you change the read, write, and execute permissions on your files.
++ **mkdir *dirname*** : make a new directory
++ **cd *dirname*** : change directory
++ **pwd** : tells you where you currently are
 
 # Vim
 
