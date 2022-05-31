@@ -40,6 +40,8 @@ You've to submit a directory of name `XXXXXX_Your_Name` with `XXXXXX` being your
 
 I'm giving a choice between `bash` or `python`, because this will decide how comfortable you get in either. You'll eventually find that mostly all languages can replace each other, so it comes down to convenience and speed.
 
+> NOTE: A bash based submission will be scored higher (x1.2 score) than the corresponding python based. This is because you're meant to practice bash scripting. You can opt for using both languages partly (1 and 2 for bash, 3 and 4 for python).
+
 Do remember that judgement is on you using BASH/Python3 with no pre-built string manipulation commands. Inefficient but working code **is acceptable** for this assignment. Use any amount of nesting you want! (Just that it should run within 5 seconds).
 
 Submit a PR **by Sunday, June 5th 2022**, no deadline extension. You can of course submit before!
