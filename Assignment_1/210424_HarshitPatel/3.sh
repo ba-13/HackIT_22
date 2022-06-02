@@ -10,4 +10,4 @@ for word in $line; do
     fi
 done
 i=$((i+1))  
-done < i_am_hiding_stuff.txt
+done < ../i_am_hiding_stuff.txt
