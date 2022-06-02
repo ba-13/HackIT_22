@@ -8,4 +8,4 @@ if [[ "$line" == *"$SUB"* ]]; then
   echo "Line No. $i"
 fi 
 i=$((i+1))  
-done < i_am_hiding_stuff.txt
+done < ../i_am_hiding_stuff.txt
