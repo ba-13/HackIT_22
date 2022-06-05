@@ -12,10 +12,8 @@ do
 		#echo $ch
 		if [[ $ch == *"HACK"* ]];
 		then
-		echo "Found \"Hack\" in the line : "
-		echo $p
-		echo "At the line number- "
-		echo $line_count
+		echo "Found \"Hack\" in the line : $p"
+		echo "At the line number: $line_count"
 		fi
 	done
 done < ../../i_am_hiding_stuff.txt

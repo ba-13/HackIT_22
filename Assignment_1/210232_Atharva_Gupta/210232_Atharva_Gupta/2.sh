@@ -9,10 +9,8 @@ do
 	do
 		if [[ $ch =~ [0-9]+[0-9]+[0-9]+[0-9]+[0-9]+[0-9]+[0-9]+[0-9]+[0-9]+[0-9] ]]
 		then
-		echo "Found required number:"
-		echo $ch
-		echo "Line Number:"
-		echo $line_count
+		echo "Found required number: $ch"
+		echo "Line Number: $line_count"
 		fi
 	done
 done <../../i_am_hiding_stuff.txt
