@@ -1,6 +1,3 @@
-count=0
-flag=0
-
 while read line
 do
     for (( i=0; i<${#line} ; i++));
