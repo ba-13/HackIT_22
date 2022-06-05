@@ -18,6 +18,6 @@ do
 		echo $line_count
 		fi
 	done
-done <i_am_hiding_stuff.txt
+done < ../../i_am_hiding_stuff.txt
 
 
