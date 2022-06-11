@@ -10,5 +10,4 @@ do
         fi
     done
 
-
 done < "${1:-/dev/stdin}"
