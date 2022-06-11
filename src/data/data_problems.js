@@ -1,3 +1,4 @@
 export const Problems = [
-"Git_Files_Vim command summary based on Session 1",
+"Git_Files_Vim Commands Summary",
+"Replicating_Regex with Py/Bash",
 ]
