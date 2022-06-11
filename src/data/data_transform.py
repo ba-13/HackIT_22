@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import json
+import math
 
 path_to_profiles = "./HackIT Assignments - Profiles.csv"
 path_to_problems = "./HackIT Assignments - Problems.csv"
@@ -19,7 +19,7 @@ details["roll"] = details["roll"].astype(str)
 scores = []
 data = np.array(data)
 for row in data:
-    row = list(map(lambda x: 'a' if x == 10 else str(x), row))
+    row = list(map(lambda x: 'a' if x == 10 else str(math.floor(x)), row))
     string = ''.join(row)
     scores.append(string)
 scores = pd.DataFrame(scores, columns=["scores"])
