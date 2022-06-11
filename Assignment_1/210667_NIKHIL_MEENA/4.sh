@@ -1,5 +1,5 @@
-#! /bin/bash
-arr='i_am_hiding_stuff.txt'
+#!/bin/bash
+arr='../i_am_hiding_stuff.txt'
 while IFS= read -r line
 do
 	if [[ "$line" =~ 'hackIT' ]]

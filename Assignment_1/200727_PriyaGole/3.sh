@@ -1,3 +1,4 @@
+#!/bin/bash
 count=0
 flag=0
 

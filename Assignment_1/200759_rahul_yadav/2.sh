@@ -1,5 +1,5 @@
 #! /usr/bin/python3
-path = r"/home/rahul/Desktop/HackIT_22/Assignment_1/i_am_hiding_stuff.txt"
+path = r"../i_am_hiding_stuff.txt"
 
 with open(path,"r") as f:
     line_no = 1
