@@ -19,7 +19,7 @@ Since the title says not to use the client side, i went ahead and opened the ins
 
 ![img1](ducs.png)
 
-In the verify function I noticed the variable split assigned to 4 so each substring assigned to 4.
+In the verify function I noticed the variable split assigned to 4 so each substring chech if bloch was assigned to split to split+4.
 So arranging the codes in ascending order we get the flag
 
 ## Flag
