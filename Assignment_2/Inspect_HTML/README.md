@@ -17,7 +17,7 @@ What is the web inspector in web browsers?
 
 Obviously the first approach was the check the HTML part of the inspect element 
 
-![html](HTML.png)
+![html](html.png)
 
 Look under the (index) file and the flag is sitting right there in plain sight
 
