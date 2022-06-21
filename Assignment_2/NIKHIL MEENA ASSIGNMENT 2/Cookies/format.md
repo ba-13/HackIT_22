@@ -16,7 +16,7 @@ Category: Web Exploitation
 
 ## Approach
 
-> ![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2019-16-10.pngAssignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202)
+> ![alt text](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2019-16-10.pngcd Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202)
 
 ## Flag
 
