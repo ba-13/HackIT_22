@@ -16,7 +16,7 @@ Category: Web Exploitation
 
 ## Approach
 
-> ![](Assignment_2%2FNIKHILMEENA%20ASSIGNMENT%202%2FAssets%2FScreenshot%20from%202022-06-20%2019-16-10.png)
+> ![](Assignment_2%2FNIKHIL%20MEENA%20ASSIGNMENT%202%2FAssets%2FScreenshot%20from%202022-06-20%2019-16-10.png)
 
 
 ## Flag
