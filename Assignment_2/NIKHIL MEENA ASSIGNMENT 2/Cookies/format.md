@@ -16,7 +16,7 @@ Category: Web Exploitation
 
 ## Approach
 
-> [alt text](`Assignment_2/NIKHIL MEENA ASSIGNMENT 2/Assets/Screenshot from 2022-06-20 19-16-10.png`)
+> ![](Assignment_2%2FNIKHILMEENA%20ASSIGNMENT%202%2FAssets%2FScreenshot%20from%202022-06-20%2019-16-10.png)
 
 
 ## Flag
