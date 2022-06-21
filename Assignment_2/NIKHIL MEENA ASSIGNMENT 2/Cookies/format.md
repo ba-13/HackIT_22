@@ -16,7 +16,7 @@ Category: Web Exploitation
 
 ## Approach
 
-> opened 
+> [alt text](`Assignment_2/NIKHIL MEENA ASSIGNMENT 2/Assets/Screenshot from 2022-06-20 19-16-10.png`)
 
 
 ## Flag
