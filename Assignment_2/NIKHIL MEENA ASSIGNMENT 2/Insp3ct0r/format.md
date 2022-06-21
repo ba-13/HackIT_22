@@ -12,7 +12,11 @@ Category: Web Exploitation
 > There's 3 parts
 
 ## Approach
-> Paste any relevant screenshot. Give a short but replicable approach you took.
+> ![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2020-02-22.png)
+
+![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2020-02-22.png)
+
+![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2020-02-48.png)
 
 ## Flag
-> picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?832b0699}
+> "`picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?832b0699}`"

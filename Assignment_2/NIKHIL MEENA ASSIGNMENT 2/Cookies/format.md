@@ -32,39 +32,9 @@ Category: Web Exploitation
 
 ![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2019-23-24.png)
 
-![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2019-23-24.png)
+![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2019-26-06.png)
 
-![]()
-
-![]()
-
-![]()
-
-![]()
-
-![]()
-
-![]()
-
-![]()
-
-![]()
-
-![]()
-
-![]()
-
-![]()
-
-![]()
-
-![]()
-
-![]()
-
-![]()
-
-![]()
+![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2019-26-22.png)
 
 ## Flag
 
