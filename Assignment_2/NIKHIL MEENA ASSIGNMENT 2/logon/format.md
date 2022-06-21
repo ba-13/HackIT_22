@@ -13,5 +13,11 @@ Category: Web Exploitation
 ## Approach
 > used 'hii' as username and password as password. changed admin to true got the ctf
 
+![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2020-26-23.png)
+
+![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2020-28-02.png)
+
+![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2020-28-11.png)
+
 ## Flag
 > "`picoCTF{th3_c0nsp1r4cy_l1v3s_d1c24fef}`"
