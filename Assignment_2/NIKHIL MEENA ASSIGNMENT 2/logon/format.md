@@ -11,9 +11,11 @@ Category: Web Exploitation
 > Hmm it doesn't seem to check anyone's password, except for Joe's?
 
 ## Approach
-> used 'hii' as username and password as password. changed admin to true got the ctf
+> used 'hii' as username and password as `password`. Logged in successfully.
 
 ![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2020-26-23.png)
+
+changed admin to `true` and got the Flag.
 
 ![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2020-28-02.png)
 
