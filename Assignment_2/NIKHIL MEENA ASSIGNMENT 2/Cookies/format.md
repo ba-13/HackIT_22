@@ -16,9 +16,15 @@ Category: Web Exploitation
 
 ## Approach
 
-> ![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2019-21-33.png)
+> Since, It was written in the textbox itself, i typed `snickerdoodle`.
+
+![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2019-21-33.png)
+
+And, the cookie got accepted.
 
 ![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2019-21-47.png)
+
+Changing the value of the cookie changed the response of the webpage. So, I kept changing it until i found the flag at name = 18.
 
 ![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2019-22-09.png)
 

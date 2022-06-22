@@ -23,6 +23,12 @@ I tried manipulating lot of things but couldn't find anything that work and skip
 
 ![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2019-17-11.png)
 
+
+
+While trying it again, noticed the name, HEAD was in capital letters, tried HEAD method and found the flag.
+
+
+
 ![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2019-17-35.png)
 
 ![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2019-18-02.png)
