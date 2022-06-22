@@ -1,8 +1,8 @@
-# Title of Challenge
+# Includes
 
 ## Overview
-Points: 
-Category:
+Points: 100
+Category: Web Exploitation
 
 ## Description
 > Can you get the flag? Go to this website and see what you can discover.
