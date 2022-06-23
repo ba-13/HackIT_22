@@ -47,3 +47,95 @@ Do remember that judgement is on you using BASH/Python3 with no pre-built string
 Submit a PR **by Sunday, June 5th 2022**, no deadline extension. You can of course submit before!
 
 ---
+
+## Assignment 2
+
+Delving into basic Web Exploitation, Complete the CTFs listed here:
+
+- Get aHEAD
+- Cookies
+- Insp3ct0r
+- Scavenger Hunt
+- Some Assembly Required 1
+- More Cookies
+- where are the robots
+- logon
+- dont-use-client-side
+- It is my Birthday
+- Who are you?
+- login
+- Includes
+- Inspect HTML
+- Local Authority
+- Search Source
+- Some Assembly Required 2
+- Super Serial
+- Most Cookies
+- caas
+
+These can be found [here](https://play.picoctf.org/practice?category=1&page=1&solved=1) at PicoCTF.  
+Update your progress [here](https://docs.google.com/spreadsheets/d/1pwF0dJMnHRXFQ7l-wLOAkd--_vdlF4Mhuqz55p0xjlE/edit?usp=sharing).
+
+To submit this assignment, make a `approach.md` file per challenge.
+Here's the format:
+
+```md
+# Title of Challenge
+
+## Overview
+Points: 
+Category:
+
+## Description
+> Paste the problem description here
+
+## Hints
+> Paste the Hints here
+
+## Approach
+> Paste any relevant screenshot. Give a short but replicable approach you took.
+
+## Flag
+> Paste the flag you found like below, within "``"
+`picoCTF{pAs71_781_flAG}`
+```
+
+Also make a directory that contains this file, directory name being the challenge name, usually snake_cased file naming is used (e.g. get_ahead).
+
+```bash
+get_ahead
+    ├── connect.sh
+    ├── approach.md
+    └── flag.txt
+```
+
+Here `connect.sh` can contain the link given in the PS. `flag.txt` containing the flag, and `approach.md` being the markdown explaination in the format as above.
+Usually each challenge is solved by giving its own directory, so things don't get cluttered.
+
+If you're including a screenshot, create an `assets` folder in your root directory with all your static resources there, and link all screenshots from there in your `approach.md`.  
+
+Finally, your Assignment Submission should look like:
+
+```bash
+Assignment_2
+ ├── 2XXXXX_YourName
+ │   ├── assets
+ │   │   └── Screenshot from 2022-06-19 18-41-40.png
+ │   ├── caas
+ │   │   ├── approach.md
+ │   │   ├── connect.sh
+ │   │   └── flag.txt
+ ...
+ 
+ │   └── who_are_you
+ │       ├── approach.md
+ │       ├── connect.sh
+ │       └── flag.txt
+ │
+ ├── 2YYYYYY_SomeoneElse
+
+```
+
+Another approach you can take is just writing an approach file per challenge, naming that file on that challenge name instead.
+
+Submit a PR **by Friday, June 22nd 2022**, no deadline extension. You can of course submit before!
