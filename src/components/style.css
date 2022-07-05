@@ -67,6 +67,8 @@
 
 #profile .flex .item{
     display: flex;
+    padding-right: 2rem;
+    padding-left: 2rem;
     align-items: center;
 }
 
@@ -77,6 +79,11 @@
 
 #profile .flex .info{
    padding: 1em;
+}
+
+#profile .zero{
+    border-radius: 5%;
+    background-color: rgb(202, 202, 202);
 }
 
 .text-dark{

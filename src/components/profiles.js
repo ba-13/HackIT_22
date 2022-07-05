@@ -22,21 +22,39 @@ function Item(data, searchField) {
         for (let ch = 0; ch < c; ch++) {
           scores[ch] = val.scores[ch] === "a" ? 10 : parseInt(val.scores[ch]);
         }
-        return (
-          <div className="flex" key={idx}>
-            <div className="item">
-              {/* <img src={val.img} alt="" /> */}
-              {/* <div className="bold">{val.pos}.</div> */}
-              <div className="info">
-                <h3 className="name text-dark">{val.name}</h3>
-                <span>{val.roll}</span>
+        if (val.score === 0) {
+          return (
+            <div className="flex" key={idx}>
+              <div className="item">
+                {/* <img src={val.img} alt="" /> */}
+                {/* <div className="bold">{val.pos}.</div> */}
+                <div className="info">
+                  <h3 className="name text-dark">{val.name}</h3>
+                  <span>{val.roll}</span>
+                </div>
+              </div>
+              <div className="item zero">
+                <h3 className="name text-dark">{val.score}</h3>
               </div>
             </div>
-            <div className="item">
-              <h3 className="name text-dark">{val.score}</h3>
+          );
+        } else {
+          return (
+            <div className="flex" key={idx}>
+              <div className="item">
+                {/* <img src={val.img} alt="" /> */}
+                {/* <div className="bold">{val.pos}.</div> */}
+                <div className="info">
+                  <h3 className="name text-dark">{val.name}</h3>
+                  <span>{val.roll}</span>
+                </div>
+              </div>
+              <div className="item">
+                <h3 className="name text-dark">{val.score}</h3>
+              </div>
             </div>
-          </div>
-        );
+          );
+        }
       })}
     </>
   );
