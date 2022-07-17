@@ -12,7 +12,7 @@ Category: Web Exploitation
 
 ## Approach
 
-> Firstly follwing the standard procedure. i.e sending the request in Burp and seeing through the files/script. 
+> Firstly follwing the standard procedure. i.e sending the request in Burp and seeing through the files/script.
 
 ![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_2/NIKHIL%20MEENA%20ASSIGNMENT%202/Assets/Screenshot%20from%202022-06-20%2020-15-46.png)
 
