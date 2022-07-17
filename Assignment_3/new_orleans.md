@@ -14,6 +14,8 @@ there is a function
 
 which seems like creating the password even before asking for it.
 
+![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_3/Images/Screenshot%20from%202022-07-16%2018-06-25.png)
+
 going through the password check function, I found that it was comparing it with what is stored in 2400 i.e R(Jh@R_.
 
 I tried that as password and unlocked.
