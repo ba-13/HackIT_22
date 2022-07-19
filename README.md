@@ -139,3 +139,52 @@ Assignment_2
 Another approach you can take is just writing an approach file per challenge, naming that file on that challenge name instead.
 
 Submit a PR **by Friday, June 22nd 2022**, no deadline extension. You can of course submit before!
+
+---
+
+## Assignment 3
+
+Delving into basic RE, Complete the following challenges on [Microcorruption](https://microcorruption.com/map)
+Get started about what Microcorruption is [here](https://z-r0crypt.github.io/blog/2019/11/25/microcorruption-ctf---tutorial/)  
+
+- Tutorial (Implicit)
+- New Orleans
+- Sydney
+- Hanoi
+- Cusco
+- Reykjavik
+
+To submit this assignment, make a file per challenge.
+Here's the format:
+
+```md
+# Title of Challenge
+
+## Approach
+> Paste any relevant screenshot. Give a short but replicable approach you took.
+
+## Passcode
+> Paste the passcode to the lock you found within "``"
+`R&!\|d0m`
+```
+
+Finally, your Assignment Submission should look like:
+
+```bash
+Assignment_3
+ ├── 2XXXXX_YourName
+ │   ├── assets
+ │   │   └── Screenshot from 2022-07-15 21-20-40.png
+ │   │   └── Screenshot from 2022-07-16 18-11-40.png
+ │   ├── cusco.md
+ │   ├── new_orleans.md
+ │   ├── hanoi.md
+ │   ├── reykjavik.md
+ │   ├── sydney.md
+ │   └── tutorial.md
+ │
+ ├── 2YYYYYY_SomeoneElse
+
+```
+
+Submit a PR **by Sunday, June 17th 2022**, no deadline extension. You can of course submit before!
