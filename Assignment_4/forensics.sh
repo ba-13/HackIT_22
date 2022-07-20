@@ -5,6 +5,26 @@ if [ -d Forensics ]; then
     exit 1
 fi
 
+checkingList=($( ls .. ))
+flag=0
+for ((i = 0; i < ${#checkingList[@]}; i++))
+do
+    item="${checkingList[$i]}"
+    [[ $item == "assets" ]] && flag=$(( $flag + 1 ))
+done
+if [[ $flag == 0 ]]; then
+    echo "Make your own working directory first of the form 2XXXXX_yourName"
+    echo "This should lead to directory structure as:"
+    echo ".
+├── 2XXXXX_yourName
+├── assets
+│   └── code.c
+├── krypton.sh
+├── forensics.sh
+└── ghidra.sh"
+    exit 2
+fi
+
 mkdir Forensics
 cd Forensics
 folders=("information"
@@ -27,9 +47,9 @@ mkdir assets
 
 for ((i = 0; i < ${#folders[@]}; i++))
 do
-    file="${folders[$i]}".md
-    touch "$file"
-    cat > "${file}" <<EOL
+    file="${folders[$i]}"
+    touch "$file".md
+    cat > "${file}".md <<EOL
 # ${file}
 
 ## Overview
