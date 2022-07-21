@@ -238,7 +238,7 @@ chmod +x ghidra.sh
 | ------------- | ------------- |
 | [Cheatsheet](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf) | [Windows](https://www.youtube.com/watch?v=tTpX9fxJ7Vc) or [Linux](https://www.youtube.com/watch?v=FceecDBW_N4) |
 
-You're given a C source [file](./Assignment_3/a.out). You're going to replicate making of a basic RE challenge and solving it yourselves.  
+You're given a C source [file](./Assignment_4/assets/code.c). You're going to replicate making of a basic RE challenge and solving it yourselves.  
 
 - Run the script `ghidra.sh` as shown above
 - Create a new Ghidra project **in this working directory** called "Assignment4_2XXXXX` (your roll number again), add these two binaries in it.
