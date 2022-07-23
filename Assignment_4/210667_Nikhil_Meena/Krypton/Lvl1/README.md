@@ -29,3 +29,10 @@ the cipher text.
 
 Enjoy!
 
+
+
+As it is written in the README file that it is encrypted using the ROT13 rotation. Similar to what we got as task to get this project.
+
+![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_4/210667_Nikhil_Meena/Krypton/assets/Lv1%20code.png)
+
+I've not written the code in python because I'm more comfortable in C.
