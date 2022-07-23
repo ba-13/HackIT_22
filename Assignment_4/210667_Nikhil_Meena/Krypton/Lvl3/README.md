@@ -29,7 +29,9 @@ You know the following important details:
 
 Enjoy.
 
+![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_4/210667_Nikhil_Meena/Krypton/assets/Lv3.png)
 
+![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_4/210667_Nikhil_Meena/Krypton/assets/Lv3_2.png)
 
 I searched for substitution cipher and found a site which made substitutions and finding frequency easier.
 By making few rough guesses for the substitutions decoded the string.

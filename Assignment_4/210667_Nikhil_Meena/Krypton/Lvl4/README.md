@@ -48,5 +48,11 @@ Have fun!
 
 
 Firstly I tried to find the freq. of the letters with the help of the script. But that was very time consuming.
-So, I searched for Vigen�re Cipher and found a website[https://www.boxentriq.com/code-breaking/vigenere-cipher] through which I can decode it much easier. 
+
+So, I searched for Vigen�re Cipher and found a website[https://www.boxentriq.com/code-breaking/vigenere-cipher] through which I can decode it much easier.
+
+![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_4/210667_Nikhil_Meena/Krypton/assets/Lv4.png)
+
+![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_4/210667_Nikhil_Meena/Krypton/assets/Lv4_2.png)
+
 I solved it using the website, but the same can also be done using the C code, but it will take time and will need tabula recta (can be coded too).
