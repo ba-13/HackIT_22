@@ -23,4 +23,4 @@ You know the following important details:
 - The message plaintexts are in English (*** very important)
 - They were produced from the same key (*** even better!)
 
->![Alt text](/../../assets/lVL3.png)
+>![Alt text](lVL3.png)
