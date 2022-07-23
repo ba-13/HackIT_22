@@ -52,6 +52,6 @@ krypton2@melinda:/tmp/tmp.Wf2OnCpCDQ$ /krypton/krypton2/encrypt /etc/issue
 krypton2@melinda:/tmp/tmp.Wf2OnCpCDQ$ ls
 ciphertext  keyfile.dat
 
-![]()
+![](https://github.com/Akhilstaar/HackIT_22/blob/main/Assignment_4/210667_Nikhil_Meena/Krypton/assets/Lv2.png)
 
 > I've done it the same way as mentioned above. Also, can be seen in the screenshot attached.
