@@ -1,1 +1,0 @@
-picoCTF{no_clients_plz_b706c5}
