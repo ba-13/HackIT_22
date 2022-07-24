@@ -3,4 +3,6 @@ export const Problems = [
 "Replicating_Regex with Py/Bash",
 "Web Exploitation on PicoCTF",
 "Microcorruption",
+"Krypton Over the Wire",
+"Forensics Normalised",
 ]
